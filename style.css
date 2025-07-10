@@ -1,4 +1,4 @@
-/* Reset default margin */
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -19,12 +19,12 @@ body {
 .logo {
     font-size: 24px;
     font-weight: bold;
-    color: darkblue; /* 🔵 Nafi logo in dark blue */
+    color: darkblue; 
 }
 
 /* Button Style */
 .btn {
-    background-color: darkblue; /* 🔵 Button background */
+    background-color: darkblue; 
     color: white;
     border: none;
     padding: 10px 20px;
@@ -33,7 +33,7 @@ body {
     font-weight: bold;
 }
 
-/* Banner Style */
+
 .banner {
     background-image: url('Images/Hero-bg.png');
     background-size: cover;
@@ -46,5 +46,50 @@ body {
 .banner h1 {
     margin-bottom: 20px;
     font-size: 28px;
-    color: black; /* ⚫ Banner text color */
+    color: black; 
+}
+
+.action-box {
+    background-color: white;
+    margin: 40px 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+.action-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
+
+.action-left {
+    flex: 1;
+    min-width: 250px;
+    padding: 20px;
+}
+
+.action-left h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.action-left p {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.action-right {
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+}
+
+.action-right img {
+    max-width: 100%;
+    height: auto;
 }
