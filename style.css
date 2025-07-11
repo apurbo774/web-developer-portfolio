@@ -314,3 +314,44 @@ body {
 .contact-form button:hover {
   background-color: #004dc1;
 }
+
+
+
+.footer {
+  background-color: #f0f4ff;
+  padding: 40px 20px;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  margin-top: 60px;
+}
+
+.footer-logo {
+  font-size: 32px;
+  font-weight: bold;
+  color: #0066ff;
+  margin-bottom: 10px;
+}
+
+.footer-subtitle {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #0066ff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #0047b3;
+}
