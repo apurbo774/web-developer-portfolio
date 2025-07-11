@@ -152,32 +152,19 @@ body {
 }
 
 
-/* Testimonial Section */
-.testimonial-box {
+.standard-box {
 background-color: white;
-margin: 40px 20px;
-padding: 30px 20px;
-border: 2px solid #007bff;
-border-radius: 10px;
-text-align: center;
-}
-
-.testimonial-wrapper {
 margin: 40px auto;
 padding: 30px;
 width: 90%;
 max-width: 1000px;
-background-color: white; / changed from #e6f2ff */
 border: 1px solid #ccc;
-border-radius: 12px;
+border-radius: 12px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+text-align: center;
 }
 
-.testimonial-box h2 {
-color: black;
-font-size: 24px;
-margin-bottom: 30px;
-}
-
+/* Testimonial Section */
 .testimonial-row {
 display: flex;
 justify-content: space-between;
@@ -231,5 +218,36 @@ color: darkblue;
 
 .review-footer small {
 font-size: 12px;
-color: #555;
+color: #555;
+}
+
+/* Ready to Focus Better Styles */
+.focus-subtitle {
+color: #666;
+font-size: 14px;
+margin-bottom: 20px;
+}
+
+.focus-btn {
+background-color: #0066ff;
+color: white;
+padding: 12px 24px;
+text-decoration: none;
+font-weight: bold;
+border-radius: 6px;
+transition: background-color 0.3s ease;
+margin-bottom: 20px;
+display: inline-block;
+}
+
+.focus-btn:hover {
+background-color: #004dc1;
+}
+
+.focus-image img {
+width: 100%;
+max-width: 800px;
+height: auto;
+border-radius: 10px;
+margin-top: 20px;
 }
