@@ -1,253 +1,316 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
-
+/* Navbar */
 .navbar {
-    background-image: url('Images/Hero-bg.png');
-    background-size: cover;
-    background-position: center;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
+  background-image: url('Images/Hero-bg.png');
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
 }
 
 .logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: darkblue; 
+  font-size: 24px;
+  font-weight: bold;
+  color: darkblue;
 }
 
-
 .btn {
-    background-color: transparent;     
-    color: darkblue;                   
-    border: 2px solid darkblue;        
-    padding: 12px 24px;                
-    border-radius: 6px;               
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.3s ease;
+  background-color: transparent;
+  color: darkblue;
+  border: 2px solid darkblue;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .btn:hover {
-    background-color: darkblue;
-    color: white;
+  background-color: darkblue;
+  color: white;
 }
 
-
+/* Banner */
 .banner {
-    background-image: url('Images/Hero-bg.png');
-    background-size: cover;
-    background-position: center;
-    padding: 100px 20px;
-    text-align: center;
-    color: white;
+  background-image: url('Images/Hero-bg.png');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+  text-align: center;
+  color: white;
 }
 
 .banner h1 {
-    margin-bottom: 20px;
-    font-size: 28px;
-    color: black; 
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: black;
 }
 
-
+/* Action Box */
 .action-box {
-    background-color: #e6f2ff;
-    margin: 40px auto;
-    padding: 30px;
-    width: 90%;
-    max-width: 1000px;
-    border: 1px solid #ccc;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  background-color: #e6f2ff;
+  margin: 40px auto;
+  padding: 30px;
+  width: 90%;
+  max-width: 1000px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
-
 
 .action-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px 20px;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 40px 20px;
 }
 
 .action-left {
-    flex: 1;
-    min-width: 200px;
-    padding: 20px;
+  flex: 1;
+  min-width: 200px;
+  padding: 20px;
 }
 
 .action-left h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: black;
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: black;
 }
 
 .action-left p {
-    margin-bottom: 20px;
-    color: #333;
+  margin-bottom: 20px;
+  color: #333;
 }
 
 .action-right {
-    flex: 1;
-    min-width: 200px;
-    text-align: center;
+  flex: 1;
+  min-width: 200px;
+  text-align: center;
 }
 
 .action-right img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
-
+/* Users Box */
 .users-box {
-    margin: 40px auto;
-    padding: 30px;
-    width: 90%;
-    max-width: 1000px;
-    background-color: #e6f2ff;
-    border: 1px solid #ccc;
-    border-radius: 12px;
-    text-align: center;
+  background-color: #e6f2ff;
+  margin: 40px auto;
+  padding: 30px;
+  width: 90%;
+  max-width: 1000px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  text-align: center;
 }
-
 
 .users-box h2 {
-    color: darkblue;
-    margin-bottom: 25px;
-    font-size: 24px;
+  color: darkblue;
+  margin-bottom: 25px;
+  font-size: 24px;
 }
-
 
 .stats-row {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 15px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 15px;
 }
 
-
 .stat-card {
-    background-color: white;
-    border-radius: 8px;
-    padding: 25px 30px;
-    flex: 1;
-    min-width: 120px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  background-color: white;
+  border-radius: 8px;
+  padding: 25px 30px;
+  flex: 1;
+  min-width: 120px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
 .stat-card h3 {
-    margin: 0;
-    font-size: 33px;
-    color: black;
+  margin: 0;
+  font-size: 33px;
+  color: black;
 }
 
 .stat-card p {
-    margin: 5px 0 0;
-    color: #444;
+  margin: 5px 0 0;
+  color: #444;
 }
 
-
+/* Standard Box */
 .standard-box {
-background-color: white;
-margin: 40px auto;
-padding: 30px;
-width: 90%;
-max-width: 1000px;
-border: 1px solid #ccc;
-border-radius: 12px;
-box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-text-align: center;
+  background-color: white;
+  margin: 40px auto;
+  padding: 30px 20px;
+  width: 90%;
+  max-width: 1000px;
+  border: 2px solid #007bff;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
 }
 
-/* Testimonial Section */
+/* Testimonials */
 .testimonial-row {
-display: flex;
-justify-content: space-between;
-gap: 20px;
-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .testimonial-card {
-background-color: #f9f9f9;
-border-radius: 10px;
-padding: 20px;
-flex: 1;
-min-width: 250px;
-max-width: 300px;
-box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-text-align: left;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  flex: 1;
+  min-width: 250px;
+  max-width: 300px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  text-align: left;
 }
 
 .stars img {
-width: 16px;
-margin-right: 2px;
+  width: 16px;
+  margin-right: 2px;
 }
 
 .testimonial-card h3 {
-color: black;
-margin: 10px 0 5px;
+  color: black;
+  margin: 10px 0 5px;
 }
 
 .testimonial-card p {
-font-size: 14px;
-margin-bottom: 15px;
+  font-size: 14px;
+  margin-bottom: 15px;
 }
 
 .review-footer {
-display: flex;
-align-items: center;
-gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .review-footer img {
-width: 32px;
-height: 32px;
-border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
 }
 
 .review-footer h4 {
-margin: 0;
-font-size: 14px;
-color: darkblue;
+  margin: 0;
+  font-size: 14px;
+  color: darkblue;
 }
 
 .review-footer small {
-font-size: 12px;
-color: #555;
+  font-size: 12px;
+  color: #555;
 }
 
-/* Ready to Focus Better Styles */
+/* Focus Section */
 .focus-subtitle {
-color: #666;
-font-size: 14px;
-margin-bottom: 20px;
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 20px;
 }
 
 .focus-btn {
-background-color: #0066ff;
-color: white;
-padding: 12px 24px;
-text-decoration: none;
-font-weight: bold;
-border-radius: 6px;
-transition: background-color 0.3s ease;
-margin-bottom: 20px;
-display: inline-block;
+  background-color: #0066ff;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+  display: inline-block;
 }
 
 .focus-btn:hover {
-background-color: #004dc1;
+  background-color: #004dc1;
 }
 
 .focus-image img {
-width: 100%;
-max-width: 800px;
-height: auto;
-border-radius: 10px;
-margin-top: 20px;
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* Contact Form */
+.contact-box {
+  padding: 40px 30px;
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.contact-left, .contact-right {
+  flex: 1;
+  min-width: 280px;
+}
+
+.contact-left {
+  text-align: left;
+}
+
+.contact-left h2 {
+  margin-bottom: 10px;
+  color: darkblue;
+}
+
+.contact-subtitle {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.contact-form textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+.contact-form button {
+  background-color: #0066ff;
+  color: white;
+  padding: 12px 24px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #004dc1;
 }
